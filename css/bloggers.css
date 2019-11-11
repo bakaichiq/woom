@@ -26,3 +26,13 @@
     color: #7D7D7D;
     margin: 4px 24px; 
 }
+
+.main-content__list {
+	margin-top: 40px;
+	display: flex;
+}
+
+.main-content-list__item {
+ 	margin: 0 10px;
+	border-radius: 4px 4px 0px 0px;
+}
