@@ -1,0 +1,24 @@
+/* Содержание страницы */
+
+.main-content {
+	margin-bottom: 220px;
+}
+
+.main-content__block {
+	width: 100%;
+	max-height: 60px;
+	border-top: 1px solid #7D7D7D;
+	border-bottom: 1px solid #7D7D7D;
+}
+
+.main-content__title {
+	font-size: 24px;
+	font-weight: bold;
+}
+
+.main-content__text {
+	max-width: 870px;
+	margin-top: 32px;
+	font-size: 16px;
+ 	line-height: 24px;
+}

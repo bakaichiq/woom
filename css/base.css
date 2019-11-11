@@ -1,0 +1,88 @@
+a {
+	text-decoration: none;
+}
+
+ul {
+	padding: 0;
+	margin: 0;
+}
+
+li {
+	list-style-type: none; 
+}
+
+body {
+	font-family: 'Roboto';
+	margin: 0;
+}
+
+.container {
+	width: 100%;
+	max-width: 1180px;
+	margin: 0 auto;
+}
+
+/*Главная страница*/
+
+/* Header */
+
+.header {
+	height: 84px;
+}
+
+.header__logo {
+	float: left;
+	margin: 15px 0 15px 10px;  
+}
+
+.header-menu {
+	float: right;
+	margin: 31.5px 21px 31.5px 0;  
+}
+
+.header-menu__link {
+	padding: 0 20px;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 18px;
+	color: #7d7d7d;
+}
+
+/* Подвал */
+
+.footer {
+	margin-top: 177px;
+	width: 100%;
+	height: auto;
+	background: #f9f9f9;
+}
+
+.footer-logo__img {
+	margin-top: 34px; 
+}
+
+.footer-block {
+	margin-top: 35px;
+	margin-left: -50px;
+	padding-bottom: 141px;
+	display: flex;
+}
+
+.footer__block {
+	width: 250px;
+	padding: 0px 50px;
+}
+
+.footer-block__title {
+	font-weight: bold;
+ 	font-size: 16px;
+ 	line-height: 19px;
+ 	margin-bottom: 24px;
+ 	color: #7d7d7d;
+}
+
+.footer-block__link {
+	font-size: 14px;
+ 	line-height: 24px;
+ 	color: #7d7d7d;
+}
