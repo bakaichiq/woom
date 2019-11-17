@@ -51,3 +51,33 @@
  	font-size: 18px;
  	line-height: 24px;
 }
+
+.modal__type {
+	width: 320px;
+	height: 200px;
+	border: 1px solid rgba(125, 125, 125, 0.3);
+	box-sizing: border-box;
+	border-radius: 4px;
+}
+
+input[type="checkbox"] {
+	display: none;
+}
+
+.check {
+	padding-left: 19px; 
+}
+
+.check::before {
+	content: '';
+	display: inline-block;
+	width: 18px;
+	height: 18px;
+	background-color: #fff;
+	border: 1px solid rgba(125, 125, 125, 0.3); 
+	margin-right: 19px;
+}
+
+input[type="checkbox"]:checked + .check::before {
+ 	background-color: #F75147;
+}

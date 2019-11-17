@@ -4,14 +4,14 @@
         <meta charset="UTF-8">
         <meta name="viewport" charset="width=device-width, initial-scale=1.0">
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
-        <title>Контакты</title>
+        <title>Помощь</title>
+        <link rel="stylesheet" href="css/service.css">
         <link rel="stylesheet" href="css/base.css">
         <link rel="stylesheet" href="css/form.css">
-        <link rel="stylesheet" href="css/service.css">
         <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto&display=swap">
         <link rel="stylesheet" href="js/script.js">
     </head>
-    <body onclick="document.getElementById('id01').style.display='none'">
+    <body>
 
         <!-- Шапка -->
       <div class="container">
@@ -30,22 +30,38 @@
         <!-- Конец Шапки -->
         
         <!-- Содержание страницы -->
-
-      <main class="main-content">
+      
+       <main class="main-content" onclick="document.getElementById('id01').style.display='none'">
           <div class="main-content__block">
             <div class="container">
-              <h1 class="main-content__title">Контакты</h1>
+              <h1 class="main-content__title">Помощь</h1>
             </div>
           </div>
           <div class="container">
-          <pre class="main-content__text">
-Позвоните или напишите нам, чтобы получить доступ к нашему сервису или задать вопросы. <br>Мы с большим удовольствием проконсультируем вас, данная услуга бесплатная.  <br>
-<b>Телефон:</b> +996708124875
-               +996770647408
-<b>Почта:</b>   office@woom.kg
-<b>Адрес:</b>   Ул. Горького 66 
-          </pre>
-        </div>
+            <div class="main-content-block">
+                      <div class="main-content-block__text">
+                        <span class="main-content-block__title">О сервисе</span>
+                      <ul>
+                      <li><a href="#" class="main-content-block__link">Что такое WOOM?</a></li>
+                      <li><a href="#" class="main-content-block__link">Как работает сервис?</a></li>
+                      <li><a href="#" class="main-content-block__link">В чем преимущества сервиса?</a></li>
+                     </ul>
+                     </div>
+                      <div class="main-content-block__text">
+                        <span class="main-content-block__title">Авторизация</span>
+                        <ul>
+                      <li><a href="#" class="main-content-block__link">Как зарегистрироваься на сайте?</a></li>
+                      <li><a href="#" class="main-content-block__link">Забыли логин и пароль?</a></li>
+                    </ul>
+                  </div>
+                      <div class="main-content-block__text">
+                        <span class="main-content-block__title">Оплата</span>
+                      <ul>
+                    <li><a href="#" class="main-content-block__link">Какие способы оплаты?</a></li>
+                    </ul>
+                  </div>
+                    </div>        
+          </div>
        </main>
 
         <!-- Конец содержании страницы -->
@@ -53,7 +69,7 @@
         <!-- Подвал -->
 
       
-      <footer class="footer">
+      <footer class="footer" onclick="document.getElementById('id01').style.display='none'">
           <div class="container">
             <div class="footer__logo"><a href="index.html" class="footer-logo__link"><img src="img/logo.png" alt="" class="footer-logo__img"></a></div>
             <div class="footer-block">
@@ -116,8 +132,8 @@
               </div>
             </div>
              </div>
-        </footer>  
-      
+        </footer> 
+ 
         <!-- Форма Входа -->
 
         <form class="modal" id="id01">
@@ -127,5 +143,6 @@
           <input class="modal__input" type="password" placeholder="Пароль" name="psw" required>
           <button class="modal_btn" type="submit">Войти</button>
         </form>
+       
     </body>
-</html> 
+</html>

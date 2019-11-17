@@ -22,3 +22,24 @@
 	font-size: 16px;
  	line-height: 24px;
 }
+
+.main-content-block {
+	display: flex;
+}
+
+.main-content-block__text {
+	margin: 32px 130px 0 0;
+}
+
+.main-content-block__title {
+	font-weight: bold;
+	font-size: 20px;
+	line-height: 32px;
+	color: rgba(5, 5, 5, 0.8);
+}
+
+.main-content-block__link {
+	font-size: 16px;
+	line-height: 24px;
+	color: #050505;
+}
