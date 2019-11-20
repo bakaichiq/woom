@@ -21,7 +21,7 @@
             <div class="header-menu">
                     <a href="service.html" class="header-menu__link menu__link--active">О сервисе</a>
                     <a href="bloggers.html" class="header-menu__link menu__link--active">Блоггеры</a>
-                    <a href="#" onclick="document.getElementById('id01').style.display='block'" class="header-menu__link menu__link--active">Вход</a>
+                    <a id="modal-form__open" href="#" class="header-menu__link menu__link--active">Вход</a>
             </div>
         </header>
       </div>
@@ -29,7 +29,7 @@
         <!-- Конец Шапки -->
         
         <!-- Содержание страницы -->
-      <main class="main" onclick="document.getElementById('id01').style.display='none'">
+      <main class="main">
           <div class="main-content">
 
             <!-- wrap -->
@@ -139,7 +139,7 @@
         <!-- Подвал -->
 
       
-      <footer class="footer" onclick="document.getElementById('id01').style.display='none'">
+      <footer class="footer">
           <div class="container">
             <div class="footer__logo"><a href="index.html" class="footer-logo__link"><img src="img/logo.png" alt="" class="footer-logo__img"></a></div>
             <div class="footer-block">
@@ -206,7 +206,7 @@
       
         <!-- Форма Входа -->
 
-        <form class="modal" id="id01">
+        <form class="modal" id="modal">
           <img src="img/logo_form.svg" alt="" class="modal__logo">
           <p class="modal__text">Для входа в сервис <a href="#" class="modal__link">свяжитесь с администраторами</a></p>
           <input class="modal__input" type="text" placeholder="Email" name="email" required>

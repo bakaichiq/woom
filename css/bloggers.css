@@ -25,6 +25,7 @@
  	text-align: center;
     color: #7D7D7D;
     margin: 4px 24px; 
+    cursor: unset;
 }
 
 .main-content {
@@ -111,6 +112,12 @@
 
 .main-content-list__icon2 {
 	position: absolute;
+	display: block;
 	left: 240px;
-	top: 147px;
+	top: 147px;	
+	background-color: #ffffff;
+}
+
+.main-content-list__icon2:hover {
+	background-color: #F75147;
 }

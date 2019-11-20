@@ -24,7 +24,7 @@
             <div class="header-menu">
                     <a href="service.html" class="header-menu__link menu__link--active">О сервисе</a>
                     <a href="bloggers.html" class="header-menu__link menu__link--active">Блоггеры</a>
-                    <a href="#" onclick="document.getElementById('id01').style.display='block'" class="header-menu__link menu__link--active">Вход</a>
+                    <a id="modal-form__open" href="#" class="header-menu__link menu__link--active">Вход</a>
             </div>
         </header>
       </div>
@@ -33,11 +33,11 @@
         
         <!-- Содержание страницы -->
 
-      <main class="main" onclick="document.getElementById('id01').style.display='none'">
+      <main class="main">
         <div class="main__block">
           <div class="container">
             <ul class="main-block__filter">
-              <li class="main-block-filter__item"><label for="" class="lbl">Тип</label></li>
+              <a href="#" id="modal__typeOpen"><li class="main-block-filter__item"><label for="" class="lbl">Тип</label></li></a>
               <li class="main-block-filter__item"><label for="" class="lbl">Социальная сеть</label></li>
               <li class="main-block-filter__item"><label for="" class="lbl">Период</label></li>
               <li class="main-block-filter__item"><label for="" class="lbl">Категория</label></li>
@@ -55,8 +55,8 @@
               <div class="main-content-list__item">
                 <img src="img/bloggers/blogger1.png" alt="" class="main-content-list__img">
                 <div class="main-content-list__icons">
-                <img src="img/bloggers/icon1.png" alt="" class="main-content-list__icon">
-                <img src="img/bloggers/icon2.png" alt="" class="main-content-list__icon2"></img>
+                <img src="img/bloggers/icon1.png" alt="" class="main-content-list__icon" />
+                <img src="img/icons/icon2.svg" alt="" class="main-content-list__icon2" />
                 </div>
                 <a href="#" class="main-content-list__benefits">Категория 1</a>
                 <a href="#" class="main-content-list__benefits">Категория 2</a>
@@ -81,7 +81,7 @@
                 <img src="img/bloggers/blogger2.png" alt="" class="main-content-list__img">
                 <div class="main-content-list__icons">
                 <img src="img/bloggers/icon1.png" alt="" class="main-content-list__icon">
-                <img src="img/bloggers/icon2.png" alt="" class="main-content-list__icon2"></img>
+                <img src="img/icons/icon2.svg" alt="" class="main-content-list__icon2"></img>
                 </div>
                 <a href="#" class="main-content-list__benefits">Категория 1</a>
                 <a href="#" class="main-content-list__benefits">Категория 2</a>
@@ -106,7 +106,7 @@
                 <img src="img/bloggers/blogger3.png" alt="" class="main-content-list__img">
                 <div class="main-content-list__icons">
                 <img src="img/bloggers/icon1.png" alt="" class="main-content-list__icon">
-                <img src="img/bloggers/icon2.png" alt="" class="main-content-list__icon2"></img>
+                <img src="img/icons/icon2.svg" alt="" class="main-content-list__icon2"></img>
                 </div>
                 <a href="#" class="main-content-list__benefits">Категория 1</a>
                 <a href="#" class="main-content-list__benefits">Категория 2</a>
@@ -131,7 +131,7 @@
                 <img src="img/bloggers/blogger4.png" alt="" class="main-content-list__img">
                 <div class="main-content-list__icons">
                 <img src="img/bloggers/icon1.png" alt="" class="main-content-list__icon">
-                <img src="img/bloggers/icon2.png" alt="" class="main-content-list__icon2"></img>
+                <img src="img/icons/icon2.svg" alt="" class="main-content-list__icon2"></img>
                 </div>
                  <a href="#" class="main-content-list__benefits">Категория 1</a>
                 <a href="#" class="main-content-list__benefits">Категория 2</a>
@@ -156,7 +156,7 @@
                 <img src="img/bloggers/blogger5.png" alt="" class="main-content-list__img">
                 <div class="main-content-list__icons">
                 <img src="img/bloggers/icon1.png" alt="" class="main-content-list__icon">
-                <img src="img/bloggers/icon2.png" alt="" class="main-content-list__icon2"></img>
+                <img src="img/icons/icon2.svg" alt="" class="main-content-list__icon2"></img>
                 </div>
                  <a href="#" class="main-content-list__benefits">Категория 1</a>
                 <a href="#" class="main-content-list__benefits">Категория 2</a>
@@ -181,7 +181,7 @@
                 <img src="img/bloggers/blogger6.png" alt="" class="main-content-list__img">
                 <div class="main-content-list__icons">
                 <img src="img/bloggers/icon1.png" alt="" class="main-content-list__icon">
-                <img src="img/bloggers/icon2.png" alt="" class="main-content-list__icon2"></img>
+                <img src="img/icons/icon2.svg" alt="" class="main-content-list__icon2"></img>
                 </div>
                  <a href="#" class="main-content-list__benefits">Категория 1</a>
                 <a href="#" class="main-content-list__benefits">Категория 2</a>
@@ -206,7 +206,7 @@
                 <img src="img/bloggers/blogger7.png" alt="" class="main-content-list__img">
                 <div class="main-content-list__icons">
                 <img src="img/bloggers/icon1.png" alt="" class="main-content-list__icon">
-                <img src="img/bloggers/icon2.png" alt="" class="main-content-list__icon2"></img>
+                <img src="img/icons/icon2.svg" alt="" class="main-content-list__icon2"></img>
                 </div>
                  <a href="#" class="main-content-list__benefits">Категория 1</a>
                 <a href="#" class="main-content-list__benefits">Категория 2</a>
@@ -231,7 +231,7 @@
                 <img src="img/bloggers/blogger8.png" alt="" class="main-content-list__img">
                 <div class="main-content-list__icons">
                 <img src="img/bloggers/icon1.png" alt="" class="main-content-list__icon">
-                <img src="img/bloggers/icon2.png" alt="" class="main-content-list__icon2"></img>
+                <img src="img/icons/icon2.svg" alt="" class="main-content-list__icon2"></img>
                 </div>
                  <a href="#" class="main-content-list__benefits">Категория 1</a>
                 <a href="#" class="main-content-list__benefits">Категория 2</a>
@@ -256,7 +256,7 @@
                 <img src="img/bloggers/blogger9.png" alt="" class="main-content-list__img">
                 <div class="main-content-list__icons">
                 <img src="img/bloggers/icon1.png" alt="" class="main-content-list__icon">
-                <img src="img/bloggers/icon2.png" alt="" class="main-content-list__icon2"></img>
+                <img src="img/icons/icon2.svg" alt="" class="main-content-list__icon2"></img>
                 </div>
                  <a href="#" class="main-content-list__benefits">Категория 1</a>
                 <a href="#" class="main-content-list__benefits">Категория 2</a>
@@ -281,7 +281,7 @@
                 <img src="img/bloggers/blogger10.png" alt="" class="main-content-list__img">
                 <div class="main-content-list__icons">
                 <img src="img/bloggers/icon1.png" alt="" class="main-content-list__icon">
-                <img src="img/bloggers/icon2.png" alt="" class="main-content-list__icon2"></img>
+                <img src="img/icons/icon2.svg" alt="" class="main-content-list__icon2"></img>
                 </div>
                 <a href="#" class="main-content-list__benefits">Категория 1</a>
                 <a href="#" class="main-content-list__benefits">Категория 2</a>
@@ -306,7 +306,7 @@
                 <img src="img/bloggers/blogger11.png" alt="" class="main-content-list__img">
                 <div class="main-content-list__icons">
                 <img src="img/bloggers/icon1.png" alt="" class="main-content-list__icon">
-                <img src="img/bloggers/icon2.png" alt="" class="main-content-list__icon2"></img>
+                <img src="img/icons/icon2.svg" alt="" class="main-content-list__icon2"></img>
                 </div>
                 <a href="#" class="main-content-list__benefits">Категория 1</a>
                 <a href="#" class="main-content-list__benefits">Категория 2</a>
@@ -331,7 +331,7 @@
                 <img src="img/bloggers/blogger12.png" alt="" class="main-content-list__img">
                 <div class="main-content-list__icons">
                 <img src="img/bloggers/icon1.png" alt="" class="main-content-list__icon">
-                <img src="img/bloggers/icon2.png" alt="" class="main-content-list__icon2"></img>
+                <img src="img/icons/icon2.svg" alt="" class="main-content-list__icon2"></img>
                 </div>
                  <a href="#" class="main-content-list__benefits">Категория 1</a>
                 <a href="#" class="main-content-list__benefits">Категория 2</a>
@@ -361,7 +361,7 @@
 
         <!-- Подвал -->
 
-      <footer class="footer" onclick="document.getElementById('id01').style.display='none'">
+      <footer class="footer">
           <div class="container">
             <div class="footer__logo"><a href="index.html" class="footer-logo__link"><img src="img/logo.png" alt="" class="footer-logo__img"></a></div>
             <div class="footer-block">
@@ -428,22 +428,29 @@
 
   <!-- Форма Входа -->
 
-        <form class="modal" id="id01">
+        <form class="modal" id="modal">
           <img src="img/logo_form.svg" alt="" class="modal__logo">
           <p class="modal__text">Для входа в сервис <a href="#" class="modal__link">свяжитесь с администраторами</a></p>
           <input class="modal__input" type="text" placeholder="Email" name="email" required>
           <input class="modal__input" type="password" placeholder="Пароль" name="psw" required>
           <button class="modal_btn" type="submit">Войти</button>
         </form>
-        
-        <form class="modal__type" id="id02">
-          <input class="modal__type-checkbox" type="checkbox"><label class="check">Фотоконтент</label><br>
-          <input class="modal__type-checkbox" type="checkbox"><label class="check">Видеоконтент</label><br>
-          <input class="modal__type-checkbox" type="checkbox"><label class="check">Сторис</label><br>
-          <input class="modal__type-checkbox" type="checkbox"><label class="check">Статья</label><br>
-          <input class="modal__type-checkbox" type="checkbox"><label class="check">Поделиться новым контентом</label>
+        <div class="container">
+        <form class="modal__type" id="modal__type">
+          <br>
+          <input class="modal__type-checkbox" type="checkbox">
+          <label for="check" class="check">Фотоконтент</label><br>
+          <input class="modal__type-checkbox" type="checkbox">
+          <label class="check">Видеоконтент</label><br>
+          <input class="modal__type-checkbox" type="checkbox">
+          <label class="check">Сторис</label><br>
+          <input class="modal__type-checkbox" type="checkbox">
+          <label class="check">Статья</label><br>
+          <input class="modal__type-checkbox" type="checkbox">
+          <label class="check">Поделиться новым контентом</label>
         </form>
-
-       
+        </div>
+      <script src="js/script.js"></script>  
+      <script src="js/bloggers.js"></script> 
     </body>
 </html>

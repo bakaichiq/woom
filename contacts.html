@@ -11,7 +11,7 @@
         <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto&display=swap">
         <link rel="stylesheet" href="js/script.js">
     </head>
-    <body onclick="document.getElementById('id01').style.display='none'">
+    <body>
 
         <!-- Шапка -->
       <div class="container">
@@ -22,7 +22,7 @@
             <div class="header-menu">
                     <a href="service.html" class="header-menu__link menu__link--active">О сервисе</a>
                     <a href="bloggers.html" class="header-menu__link menu__link--active">Блоггеры</a>
-                    <a href="#" onclick="document.getElementById('id01').style.display='block'" class="header-menu__link menu__link--active">Вход</a>
+                    <a id="modal-form__open" href="#" class="header-menu__link menu__link--active">Вход</a>
             </div>
         </header>
       </div>
@@ -120,12 +120,14 @@
       
         <!-- Форма Входа -->
 
-        <form class="modal" id="id01">
+        <form class="modal" id="modal">
           <img src="img/logo_form.svg" alt="" class="modal__logo">
           <p class="modal__text">Для входа в сервис <a href="#" class="modal__link">свяжитесь с администраторами</a></p>
           <input class="modal__input" type="text" placeholder="Email" name="email" required>
           <input class="modal__input" type="password" placeholder="Пароль" name="psw" required>
           <button class="modal_btn" type="submit">Войти</button>
         </form>
+
+        <script src="js/script.js"></script>  
     </body>
 </html> 
